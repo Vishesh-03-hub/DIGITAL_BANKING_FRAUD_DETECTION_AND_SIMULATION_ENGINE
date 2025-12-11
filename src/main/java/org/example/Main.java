@@ -7,14 +7,16 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public class Main {
+public class Main
+{
 
     // Database credentials for MySQL
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/bankdb";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/transaction_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Femii..16"; // change if needed
+    private static final String DB_PASSWORD = "visheshg12"; // change if needed
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         // Generate fake transaction data
         String transactionId = UUID.randomUUID().toString();
